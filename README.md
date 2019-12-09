@@ -2,22 +2,22 @@
 
 ### 抓取字段：
 
-    *SKU: String
-    *price: Number
-    *inventory: Number
-    *url: String
-    *title_ZH: String
-    *title_EN: String
-    *category1: String
-    *category2: String
-    *category3: String
-    *images: Array
-    *length: Number
-    *width: Number
-    *height: Number
-    *weight: Number
-    *text: String
-    *默认添加 on_shelf 字段（Boolean），默认为false
+    SKU: String
+    price: Number
+    inventory: Number
+    url: String
+    title_ZH: String
+    title_EN: String
+    category1: String
+    category2: String
+    category3: String
+    images: Array
+    length: Number
+    width: Number
+    height: Number
+    weight: Number
+    text: String
+    默认添加 on_shelf 字段（Boolean），默认为false
 
 ### 运行时，需指定目标类目
     例：node index.js /home-organization.html
